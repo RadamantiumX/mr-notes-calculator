@@ -1,0 +1,41 @@
+{
+  "name": "tdd",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "build": "vite build",
+    "start-test": "NODE_ENV=test node-server app.js",
+    "start-prod": "node node-server/app.js",
+    "coverage": "vitest run --coverage",
+    "cypress:open": "cypress open",
+    "test:e2e": "cypress run"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "@vitest/coverage-v8": "^0.34.6",
+    "cypress": "^13.3.3",
+    "eslint": "^8.52.0",
+    "happy-dom": "^12.9.1",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "mathjs": "11.11.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+  
+    
+
+  
+  
+}
